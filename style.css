@@ -1,0 +1,38 @@
+:root {
+    --neon-green: #0f0;
+    --neon-magenta: #ff00ff;
+    --dark-bg: #050505;
+}
+
+body {
+    background-color: var(--dark-bg);
+    color: var(--neon-green);
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 { text-shadow: 0 0 10px var(--neon-green); letter-spacing: 5px; }
+
+.tagline { color: var(--neon-magenta); text-shadow: 0 0 5px var(--neon-magenta); margin-bottom: 40px; }
+
+.contenedor { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; padding: 20px; }
+
+.card { border: 1px solid var(--neon-green); padding: 15px; background: rgba(0, 20, 0, 0.5); transition: 0.3s; }
+
+.card:hover { box-shadow: 0 0 15px var(--neon-green); border-color: var(--neon-magenta); }
+
+.card img { width: 100%; height: 200px; object-fit: cover; border: 1px solid var(--neon-green); cursor: pointer; }
+
+.info { margin-top: 15px; }
+
+.precio { display: block; margin: 10px 0; color: var(--neon-magenta); }
+
+.btn-comprar { background: transparent; color: var(--neon-green); border: 1px solid var(--neon-green); padding: 10px; cursor: pointer; font-weight: bold; margin-top: 10px; }
+
+.btn-comprar:hover { background: var(--neon-magenta); color: black; }
+
+.card-hover-magenta { border-color: var(--neon-magenta) !important; box-shadow: 0 0 20px var(--neon-magenta) !important; }
+
+
