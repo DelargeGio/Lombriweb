@@ -1,5 +1,5 @@
 const app = document.getElementById('app');
-const TU_TELEFONO = "5215512345678"; 
+const TU_TELEFONO = "525656691886"; 
 
 // Función para abrir la imagen con efecto magenta
 function abrirImagen(src, articleElement) {
